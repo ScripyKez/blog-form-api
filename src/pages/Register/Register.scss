@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 384px;
+  margin: 60px auto;
+  padding: 48px 32px;
+  border-radius: 6px;
+  border: 1px solid var(--grey-grey-5, #d9d9d9);
+  background: var(--grey-grey-1, #fff);
+  box-shadow: 0px 0.6087964177131653px 2.9332919120788574px 0px rgba(0, 0, 0, 0.02),
+    0px 1.4630224704742432px 7.049108028411865px 0px rgba(0, 0, 0, 0.03),
+    0px 2.7547414302825928px 13.272845268249512px 0px rgba(0, 0, 0, 0.04),
+    0px 4.91398811340332px 23.67648696899414px 0px rgba(0, 0, 0, 0.04),
+    0px 9.19107437133789px 44.28426742553711px 0px rgba(0, 0, 0, 0.05), 0px 22px 106px 0px rgba(0, 0, 0, 0.07);
+
+  &__header {
+    color: #262626;
+    text-align: center;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 21px;
+  }
+
+  &__tag {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__agree-label {
+    color: #595959;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 22px;
+  }
+
+  &__agree {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 8px;
+    margin-bottom: 21px;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background: #e8e8e8;
+      top: -8px;
+    }
+  }
+
+  &__checkbox {
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+
+  &__btn-submit {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #1890ff;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 24px;
+  }
+
+  &__has-account {
+    color: #8c8c8c;
+    text-align: center;
+    font-size: 12px;
+    font-family: Inter;
+    line-height: 20px;
+    margin-top: 8px;
+  }
+}

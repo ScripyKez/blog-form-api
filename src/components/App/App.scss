@@ -1,0 +1,36 @@
+body {
+  background: #ebeef3;
+}
+
+.app {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.content {
+  background: #ebeef3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.ant-pagination-item-active {
+  background: #1890ff !important;
+}
+
+.ant-pagination-item-active a {
+  color: #ffffff !important;
+}
+
+.ant-pagination-options {
+  display: none !important;
+}
